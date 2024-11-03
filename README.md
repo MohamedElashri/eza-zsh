@@ -26,6 +26,12 @@ brew install eza
 cd $ZSH_CUSTOM/plugins/
 git clone https://github.com/MohamedElashri/eza-zsh
 ```
+ or 
+
+```bash
+git clone https://github.com/MohamedElashri/eza-zsh  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/eza-zsh
+```
+
 3. Add the plugin to `/.zshrc`
 
    You should add `eza-zsh` to the plugin list 
